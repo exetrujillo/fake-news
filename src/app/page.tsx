@@ -68,7 +68,7 @@ export default function HomePage() {
 
               {/* Bloque de metadatos con la etiqueta "En Tendencia" */}
               <div className="flex items-center space-x-4 mt-2 mb-4 text-sm">
-                <span className="text-gray-500">Publicado: 29 de Mayo, 2024</span>
+                <span className="text-gray-500">Publicado: 08 de Junio, 2025</span>
                 <span className="flex items-center text-red-600 font-bold">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.934l-6.794 12.42a1 1 0 00.385 1.45l.007.003.002.001l.002.001l.003.001l.005.002l.001.001l.001.001l.001.001l.001.001c.114.034.229.051.345.051c.345 0 .69-.129.956-.385l6.794-12.42a1 1 0 00-.385-1.45zM12.395 2.553L10.293 6.5h4.414L12.395 2.553zM10 17a1 1 0 01-1-1v-4h-3a1 1 0 110-2h3V6a1 1 0 112 0v4h3a1 1 0 110 2h-3v4a1 1 0 01-1 1z" clipRule="evenodd" />

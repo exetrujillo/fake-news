@@ -29,7 +29,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
               En una grabación filtrada que circula explosivamente esta mañana en redes sociales, el comunicador afirma haber cambiado radicalmente su postura. Fuentes cercanas hablan de "presiones políticas".
             </p>
             <div className="mt-4 text-sm text-gray-500 flex items-center space-x-4">
-              <span>Publicado: 29 de Mayo, 2024</span>
+              <span>Publicado: 08 de Junio, 2025</span>
               <span>|</span>
               <span>Por: Redacción DeVioVio</span>
               {/* Prueba social falsa */}
@@ -78,7 +78,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             </p>
 
             <p>
-              Mientras el equipo de Karol Lucero ha guardado un silencio hermético, figuras del espectro conservador ya han reaccionado. El diputado Juan Pérez (Partido Ficticio) declaró que "es una traición a los miles de jóvenes que lo veían como un referente". Este medio intentó contactar a Lucero, pero no obtuvo respuesta al cierre de esta edición.
+              Mientras el equipo de Karol Lucero ha guardado un silencio hermético, figuras del espectro conservador ya han reaccionado. El diputado Juan Alberto Ignacio Domingo Pérez (Partido SocialOpusDei) declaró que "es una traición a los miles de jóvenes que lo veían como un referente". Este medio intentó contactar a Lucero, pero no obtuvo respuesta al cierre de esta edición.
               {/* Táctica: Mezcla de verdad y ficción. Se menciona a una persona real (Lucero) y se le atribuyen acciones y reacciones de personas inventadas ("Diputado Juan Pérez"), haciendo que la historia parezca más creíble. */}
             </p>
           </div>
