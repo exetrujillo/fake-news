@@ -11,8 +11,7 @@ export async function generateStaticParams() {
   }));
 }
 
-// CORRECCIÓN FINAL: Haz la función 'async' y usa 'await'
-export default async function TheoryPage({ params }: { params: { slug: string } }) {
+export default async function TheoryPage({ params }: { params: Promise<{ slug: string }> }) {
   // Primero, 'await' para resolver los params
   const { slug } = await params;
 

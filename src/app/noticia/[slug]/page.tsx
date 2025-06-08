@@ -4,8 +4,8 @@ import React from 'react';
 import Image from 'next/image';
 import EducationNav from '@/components/EducationNav';
 
-// CORRECCIÓN FINAL: Haz la función 'async' y usa 'await'
-export default async function ArticlePage({ params }: { params: { slug: string } }) {
+
+export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   // Primero, 'await' para resolver los params
   const { slug } = await params;
 
