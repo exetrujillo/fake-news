@@ -7,7 +7,6 @@ const Header = () => {
     <>
       {/* Top Bar */}
       <div className="bg-gray-800 text-white hidden md:block">
-        {/* ... (código de la Top Bar, sin cambios) ... */}
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center text-sm">
           <div className="flex items-center space-x-4">
             <button className="bg-cyan-400 text-gray-800 px-4 py-1 rounded flex items-center">
@@ -40,7 +39,6 @@ const Header = () => {
             {/* Logo */}
             <Link href="/" className="flex items-center cursor-pointer">
               <div className="w-12 h-12 mr-3">
-                {/* SVG no se rompe, está encapsulado y es seguro de mover */}
                 <svg width="100%" height="100%" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="200" cy="200" r="160" fill="none" stroke="#2563eb" strokeWidth="20"/>
                   <circle cx="200" cy="200" r="120" fill="none" stroke="#2563eb" strokeWidth="15"/>

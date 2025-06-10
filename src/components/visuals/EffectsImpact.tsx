@@ -1,7 +1,6 @@
 // src/components/visuals/EffectsImpact.tsx
 import React from 'react';
 
-// Tarjeta reutilizable para cada efecto (SIN CAMBIOS)
 const EffectCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => (
   <div className="bg-white p-4 rounded-lg border border-gray-200 flex items-start space-x-4 h-full">
     <div className="flex-shrink-0 text-red-500 mt-1">{icon}</div>
@@ -19,7 +18,7 @@ export default function EffectsImpact() {
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
         
-        {/* --- COLUMNA 1: IMPACTO INDIVIDUAL (CON CORRECCIÓN) --- */}
+        {/* --- COLUMNA 1: IMPACTO INDIVIDUAL --- */}
         <div>
           <h4 className="text-xl font-semibold text-center text-blue-700 pb-2 border-b-2 border-blue-200 mb-4">Impacto Individual</h4>
           {/* Usamos grid para las tarjetas para que todas tengan la misma altura */}
@@ -42,10 +41,9 @@ export default function EffectsImpact() {
           </div>
         </div>
 
-        {/* --- COLUMNA 2: IMPACTO SOCIAL (CON CORRECCIÓN) --- */}
+        {/* --- COLUMNA 2: IMPACTO SOCIAL --- */}
         <div>
           <h4 className="text-xl font-semibold text-center text-red-700 pb-2 border-b-2 border-red-200 mb-4">Impacto Social</h4>
-          {/* Usamos grid para las tarjetas para que todas tengan la misma altura */}
           <div className="grid grid-rows-3 gap-4">
             <EffectCard
               icon={<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"><path strokeLinecap="round" strokeLinejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" /></svg>}

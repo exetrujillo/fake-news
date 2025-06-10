@@ -26,7 +26,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // Asegúrate de que no haya comentarios ni espacios entre <html> y <body>
   return (
     <html lang="es" className="scroll-smooth">
       <body

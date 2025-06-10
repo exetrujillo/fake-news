@@ -12,16 +12,11 @@ export async function generateStaticParams() {
 }
 
 export default async function TheoryPage({ params }: { params: Promise<{ slug: string }> }) {
-  // Primero, 'await' para resolver los params
   const { slug } = await params;
-
-  // Ahora, usa 'slug' como antes
   const theoryItem = teoriaData.find((item) => item.id === slug);
-
   if (!theoryItem) {
     notFound();
   }
-  
   const articleSlug = 'karol-dance-apoya-aborto';
 
   return (

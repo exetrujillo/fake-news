@@ -6,12 +6,10 @@ import EducationNav from '@/components/EducationNav';
 
 
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
-  // Primero, 'await' para resolver los params
   const { slug } = await params;
 
   return (
     <div className="bg-white">
-      {/* Ahora usa 'slug' directamente */}
       <EducationNav articleSlug={slug} />
 
       <div className="max-w-4xl mx-auto px-4 py-8">
@@ -84,7 +82,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           </div>
         </article>
         
-        {/* --- AVISO EDUCATIVO (Sin cambios) --- */}
+        {/* --- AVISO EDUCATIVO --- */}
         <div className="mt-16 pt-8 border-t-4 border-red-500 text-center">
             <h2 className="text-3xl font-bold mb-2 text-red-600">ALERTA: ESTA NOTICIA ES FALSA</h2>
             <p className="text-xl text-gray-700">
